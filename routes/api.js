@@ -3,3 +3,4 @@ const apiRouter = express.Router();
 
 module.exports = apiRouter;
 
+apiRouter.use("/", require("./index"));
