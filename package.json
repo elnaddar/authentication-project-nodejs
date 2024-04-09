@@ -1,0 +1,37 @@
+{
+  "name": "authentication-project-nodejs",
+  "version": "1.0.0",
+  "description": "My application on sessions, passoprt-local, connecting node with postgres, and working with ejs engine.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch app.js --watch ."
+  },
+  "keywords": [
+    "passport",
+    "passport-local",
+    "session",
+    "authentication",
+    "postgres",
+    "node-js",
+    "express",
+    "ejs"
+  ],
+  "author": "Ahmed Mahdy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.11.5",
+    "session": "^0.1.0"
+  }
+}
